@@ -2,7 +2,7 @@
 
 function notifyUser() {
   let notif = document.getElementById('resultStats');
-  notif.innerHTML = `${notif.innerText} [Ads removed by ad-blocker; Happy searching ;)]`;
+  notif.innerText = `${notif.innerText} [Ads removed by ad-blocker; Happy searching ;)]`;
 }
 
 function removeGoogleAdsResults() {
